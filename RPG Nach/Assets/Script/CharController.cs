@@ -34,6 +34,7 @@ public class CharController : MonoBehaviour
         Vector3 heading = Vector3.Normalize(rightMovement + upMovement);
 
         transform.forward = heading;
-        transform.position += heading * moveSpeed * Time.deltaTime;
+        transform.position += rightMovement;
+        transform.position += upMovement;
     }
 }
