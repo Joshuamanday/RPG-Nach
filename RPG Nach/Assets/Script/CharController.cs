@@ -5,9 +5,13 @@ using UnityEngine;
 public class CharController : MonoBehaviour
 {
     [SerializeField]
+    //Walk movement and vector
     float moveSpeed = 4f;
 
     Vector3 forward, right;
+
+    // Run variable
+    float 
 
     // Start is called before the first frame update
     void Start()
